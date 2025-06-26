@@ -11,14 +11,12 @@ export default function About() {
     <section id="about" className={`aboutContainer ${isVisible ? 'fadeIn' : ''}`}>
       <h2 className="aboutTitle">À propos de moi</h2>
       <p className="aboutDescription">
-        Je ne suis pas encore un expert, mais je progresse chaque jour vers le développeur que je veux devenir.  
-        Étudiant à l’<strong>ETNA</strong>, je me forme au <strong>développement web fullstack</strong>, au <strong>DevOps</strong> et aux <strong>systèmes d’information</strong> — pas seulement pour écrire du code, mais pour comprendre comment les choses fonctionnent en profondeur.
+        Étudiant en informatique à l’<strong>ETNA</strong>, je me forme au <strong>développement fullstack</strong>, au <strong>DevOps</strong> et aux <strong>systèmes d’information</strong>, avec l’envie de comprendre ce qu’il y a derrière les outils que l’on utilise au quotidien.
         <br /><br />
-        Mon objectif : devenir ce profil complet capable de coder, de dépanner, de connecter les outils et surtout, de toujours trouver des solutions concrètes, même quand ce n’est pas évident.
+        Je cherche à devenir un profil polyvalent : capable de coder, de structurer une solution, mais aussi d’écouter, de m’adapter et d’apprendre vite.  
+        Je ne suis pas encore expert, mais je suis sérieux, curieux et prêt à me dépasser pour progresser.
         <br /><br />
-        Aujourd’hui, je cherche une <strong>alternance</strong> ou un <strong>job étudiant</strong> pour apprendre sur le terrain, progresser au contact de professionnels, et contribuer activement à des projets utiles.
-        <br /><br />
-        Je ne suis pas encore parfait, mais je suis déterminé, curieux, et prêt à m’investir à fond.
+        Aujourd’hui, je recherche une <strong>alternance</strong> ou un <strong>job étudiant</strong> pour passer de la théorie à la pratique, et construire quelque chose de concret, aux côtés de personnes passionnées.
       </p>
     </section>
   );
