@@ -12,7 +12,8 @@ const iconMap = {
   arduino: "arduino",
   bluetooth: "bluetooth",
   iot: "iot",
-  golang: "go"
+  golang: "go",
+  opencv: "opencv"
 };
 
 const projects = [
@@ -31,11 +32,11 @@ const projects = [
     techs: ["nextdotjs", "prisma", "postgresql", "typescript"]
   },
   {
-    title: "Arduino - ETNAThermos",
-    description: "Capteur de température intelligent communiquant via Bluetooth.",
-    image: "/image.png",
-    github: "https://github.com/Bikoum-95/ETNAThermos",
-    techs: ["arduino", "bluetooth", "iot"]
+    title: "Aqualis – Robot de nettoyage flottant",
+    description: "Robot 3D contrôlé par Bluetooth, doté de vision par ordinateur pour collecter des déchets à la surface de l’eau.",
+    image: "/Image_20250626_161547_175.jpeg",
+    github: "https://github.com/Bikoum-95/Aqualis/tree/main/aqualis-website",
+    techs: ["arduino", "bluetooth", "iot", "react", "opencv"]
   },
   {
     title: "BikoumFlix",
@@ -45,7 +46,7 @@ const projects = [
     techs: ["react", "nodejs", "video"]
   },
   {
-    title: "GeneratorPrime",
+    title: "Generatorprime",
     description: "Application GoLang pour la génération de PDF personnalisés.",
     pdf: "/Piratetetr.pdf",
     github: "https://github.com/Bikoum-95/GeneratorPrime",

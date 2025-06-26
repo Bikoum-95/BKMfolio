@@ -10,11 +10,10 @@ export default function Hero() {
             Enchanté, moi c’est <span className={styles.highlight}>Soren</span>
           </h1>
           <p className={styles.subtitle}>
-            Jeune développeur ambitieux, curieux et prêt à relever chaque défi.  
-            En quête d'une <strong>alternance</strong> et d'un <strong>job étudiant</strong> pour transformer chaque ligne de code en vraie expérience terrain.
+          Je ne prétends pas tout savoir, mais j’apprends vite et je ne lâche rien.  
+          Je cherche une <strong>alternance</strong> et un <strong>job étudiant</strong> pour gagner ma place sur le terrain, progresser chaque jour, et devenir un développeur solide, utile et humain.
           </p>
         </div>
-
         <div className={styles.imageWrapper}>
           <Image
             src="/large_1.jpg"

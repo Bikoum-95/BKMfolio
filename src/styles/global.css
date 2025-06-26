@@ -41,12 +41,12 @@ body {
 }
 
 section {
-  padding: clamp(60px, 8vw, 80px) 20px;
+  padding: clamp(60px, 8vw, 80px) 5vw;
   max-width: 1000px;
   width: 100%;
   margin: auto;
   background: rgba(15, 20, 25, 0.5);
-  border-radius: 12px;
+  border-radius: 16px;
   box-shadow: 0 0 10px rgba(88, 166, 255, 0.3);
   backdrop-filter: blur(10px);
   transition: box-shadow var(--transition-speed);
@@ -88,26 +88,50 @@ a:focus::after {
   transform-origin: left;
 }
 
-@media (max-width: 768px) {
+/* =================== Responsive Zones =================== */
+
+@media (max-width: 1024px) {
   section {
-    padding: 40px 15px;
-    box-shadow: none;
-    backdrop-filter: none;
-    background: transparent;
+    padding: 60px 4vw;
+    max-width: 90%;
   }
-  
+}
+
+@media (max-width: 768px) {
   body {
     font-size: clamp(13px, 2vw, 16px);
     padding: 0 5px;
   }
+
+  section {
+    padding: 40px 4vw;
+    background: rgba(15, 20, 25, 0.4);
+    border-radius: 12px;
+    box-shadow: none;
+    backdrop-filter: blur(6px);
+  }
 }
 
 @media (max-width: 480px) {
+  section {
+    padding: 30px 5vw;
+    border-radius: 10px;
+  }
+
   body {
     font-size: 14px;
+    padding: 0 4px;
   }
-  
-  section {
-    padding: 30px 10px;
+
+  h1, h2 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  a::after {
+    bottom: -2px;
   }
 }

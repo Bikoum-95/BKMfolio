@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Head>
         <title>BKMfolio</title>
-        <meta name="description" content="Développeur Web & Data - Support Technique" />
+        <meta name="description" content="Étudiant à l’ETNA | Développement Fullstack & Support IT" />
       </Head>
       <Navbar />
       <main>
