@@ -11,7 +11,7 @@ export default function Hero() {
           </h1>
           <p className={styles.subtitle}>
           Je ne prétends pas tout savoir, mais j’apprends vite et je ne lâche rien.  
-          Je cherche une <strong>alternance</strong> et un <strong>job étudiant</strong> pour gagner ma place sur le terrain, progresser chaque jour, et devenir un développeur solide, utile et humain.
+          Je cherche une <strong>alternance</strong> pour gagner ma place sur le terrain, progresser chaque jour, et devenir un développeur solide, utile et humain.
           </p>
         </div>
         <div className={styles.imageWrapper}>
