@@ -16,7 +16,7 @@ export default function Navbar() {
         <a href="#contact" style={{ color: '#58a6ff', textDecoration: 'none' }}>Contact</a>
         <a href="/CV_SvenSoren.pdf" target="_blank" rel="noopener noreferrer" style={{ color: '#58a6ff', textDecoration: 'none' }}>CV</a>
         <a href="https://github.com/Bikoum-95" target="_blank" rel="noopener noreferrer" style={{ color: '#58a6ff', textDecoration: 'none' }}>GitHub</a>
-        <a href="https://www.linkedin.com/in/soren-bikoumou-b1b840357/" target="_blank" rel="noopener noreferrer" style={{ color: '#58a6ff', textDecoration: 'none' }}>LinkedIn</a>
+        <a href="https://www.linkedin.com/in/sven-soren-bikoumou-recherche-une-alternance" target="_blank" rel="noopener noreferrer" style={{ color: '#58a6ff', textDecoration: 'none' }}>LinkedIn</a>
       </div>
     </nav>
   );

@@ -88,8 +88,6 @@ a:focus::after {
   transform-origin: left;
 }
 
-/* =================== Responsive Zones =================== */
-
 @media (max-width: 1024px) {
   section {
     padding: 60px 4vw;
