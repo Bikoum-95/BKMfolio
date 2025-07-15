@@ -1,24 +1,18 @@
+import styles from "../styles/Navbar.module.css";
+
 export default function Navbar() {
   return (
-    <nav style={{
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      padding: '20px',
-      backgroundColor: '#161b22',
-      position: 'sticky',
-      top: 0,
-      zIndex: 1000
-    }}>
-      <div style={{ display: 'flex', gap: '20px' }}>
-        <a href="#about" style={{ color: '#58a6ff', textDecoration: 'none' }}>À propos</a>
-        <a href="#projects" style={{ color: '#58a6ff', textDecoration: 'none' }}>Projets</a>
-        <a href="#psg" style={{ color: '#58a6ff', textDecoration: 'none' }}>PSG</a>
-        <a href="#contact" style={{ color: '#58a6ff', textDecoration: 'none' }}>Contact</a>
-        <a href="/CV_SvenSoren.pdf" target="_blank" rel="noopener noreferrer" style={{ color: '#58a6ff', textDecoration: 'none' }}>CV</a>
-        <a href="https://github.com/Bikoum-95" target="_blank" rel="noopener noreferrer" style={{ color: '#58a6ff', textDecoration: 'none' }}>GitHub</a>
-        <a href="https://www.linkedin.com/in/sven-soren-bikoumou-profil-link/" target="_blank" rel="noopener noreferrer" style={{ color: '#58a6ff', textDecoration: 'none' }}>LinkedIn</a>
-      </div>
+    <nav className={styles.navbar}>
+      <div className={styles.logo}>BKM</div>
+      <ul className={styles.navLinks}>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#psg">PSG</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="/CV_SvenSoren.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
+        <li><a href="https://github.com/Bikoum-95" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/sven-soren-bikoumou-profil-link/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      </ul>
     </nav>
   );
 }

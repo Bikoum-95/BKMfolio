@@ -1,20 +1,25 @@
 .psgContainer {
   text-align: center;
-  padding: 40px;
+  padding: 50px;
   background: linear-gradient(145deg, #0a0f1f, #161b22);
   border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
 }
 
 .title {
   font-size: 2rem;
   color: var(--accent);
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .description {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: var(--text);
-  margin-bottom: 20px;
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.6;
+  margin-bottom: 30px;
 }
 
 .carousel {
@@ -22,15 +27,20 @@
   align-items: center;
   justify-content: center;
   gap: 15px;
+  margin-bottom: 20px;
 }
 
 .mediaContainer {
-  width: 500px;
+  width: 550px;
   max-width: 90%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.6);
 }
 
 .video {
   width: 100%;
+  height: auto;
   border-radius: 12px;
 }
 
@@ -39,8 +49,21 @@
   color: var(--primary);
   background: transparent;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  font-size: 1.5rem;
+  width: 45px;
+  height: 45px;
+  font-size: 1.8rem;
   cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.navBtn:hover {
+  background: var(--primary);
+  color: #0a0f1f;
+}
+
+.quote {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  font-style: italic;
+  color: var(--primary);
 }
