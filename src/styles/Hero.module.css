@@ -1,33 +1,46 @@
 .hero {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 40px;
+  text-align: center;
+  padding: 80px 20px;
+  gap: 30px;
 }
 
 .text h1 {
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(2.5rem, 5vw, 4rem);
   color: var(--primary);
-}
-
-.highlight {
-  color: var(--accent);
+  text-shadow: 0 0 15px rgba(88, 166, 255, 0.6);
+  margin-bottom: 20px; 
 }
 
 .subtitle {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #8b949e;
-  margin: 15px 0;
+  margin-bottom: 30px;
+  line-height: 1.6;
 }
 
-.buttons a {
-  margin-right: 15px;
+.imageWrapper {
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 40px rgba(88, 166, 255, 0.4);
 }
 
 .imageWrapper img {
-  width: 220px;
-  height: 220px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
   border-radius: 50%;
-  box-shadow: 0 0 30px rgba(88,166,255,0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.imageWrapper img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 15px;
+  }
 }
