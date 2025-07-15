@@ -11,16 +11,14 @@ export default function About() {
     <section id="about" className={`aboutContainer ${isVisible ? 'fadeIn' : ''}`}>
       <h2 className="aboutTitle">À propos de moi</h2>
       <p className="aboutDescription">
-        Étudiant en informatique à l’<strong>ETNA</strong>, je me forme au <strong>développement fullstack</strong>, au <strong>DevOps</strong> et aux <strong>systèmes d’information</strong>. Ce qui m’anime ? Comprendre ce qui se cache derrière les outils que nous utilisons tous les jours, et apprendre à les bâtir, pas à pas.
+        Étudiant en informatique à l’<strong>ETNA</strong>, je me forme au <strong>développement fullstack</strong>, au <strong>DevOps</strong> et aux <strong>systèmes d’information</strong>.  
+        Je n’ai pas encore tout vu, mais j’apprends vite et je n’abandonne jamais. Pour moi, chaque bug est un défi, chaque projet un match à gagner.  
         <br /><br />
-        J’avance avec une conviction... on ne devient pas développeur du jour au lendemain, mais à force de curiosité, de rigueur, d’écoute… et surtout d’envie. Je ne me contente pas d’apprendre, je cherche à créer, à tester, à me tromper parfois pour mieux recommencer.
+        Comme sur un terrain de foot, je crois au collectif, à la persévérance et à l’envie de se dépasser. Je veux être ce profil polyvalent, capable de coder, d’analyser et d’apporter des solutions, même dans les prolongations.  
         <br /><br />
-              Mon ambition est de devenir <strong>data scientist</strong> : un profil capable d’analyser, de comprendre et de transformer les données en leviers d’action concrets. Mais je sais qu’on ne le devient pas du jour au lendemain. C’est un chemin qui se construit <strong>pas à pas</strong>, en développant une base solide en code, en architecture système, en logique et en collaboration.
-        <br /><br />
-        Je veux devenir un professionnel polyvalent, capable de coder une interface, de concevoir une solution, mais aussi d’apprendre vite, de m’adapter et de travailler en équipe. Je ne suis pas encore expert, mais je suis déjà engagé, curieux et déterminé à progresser.
-        <br /><br />
-        Aujourd’hui, je cherche une <strong>alternance</strong> pour mettre mes compétences au service de projets concrets, évoluer dans un environnement stimulant et me rapprocher un peu plus chaque jour de mon objectif. Si vous croyez, vous aussi, au potentiel et à l’effort, alors rencontrons-nous.
+        Aujourd’hui, je cherche une <strong>alternance</strong> pour passer du code à l’action, apprendre des meilleurs et contribuer à des projets qui comptent. Si vous aimez les profils ambitieux, curieux et prêts à jouer le jeu à fond… on est dans la même équipe.
       </p>
+
     </section>
   );
 }

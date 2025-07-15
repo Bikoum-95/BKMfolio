@@ -13,6 +13,7 @@ export default function Navbar() {
       <div style={{ display: 'flex', gap: '20px' }}>
         <a href="#about" style={{ color: '#58a6ff', textDecoration: 'none' }}>À propos</a>
         <a href="#projects" style={{ color: '#58a6ff', textDecoration: 'none' }}>Projets</a>
+        <a href="#psg" style={{ color: '#58a6ff', textDecoration: 'none' }}>PSG</a>
         <a href="#contact" style={{ color: '#58a6ff', textDecoration: 'none' }}>Contact</a>
         <a href="/CV_SvenSoren.pdf" target="_blank" rel="noopener noreferrer" style={{ color: '#58a6ff', textDecoration: 'none' }}>CV</a>
         <a href="https://github.com/Bikoum-95" target="_blank" rel="noopener noreferrer" style={{ color: '#58a6ff', textDecoration: 'none' }}>GitHub</a>

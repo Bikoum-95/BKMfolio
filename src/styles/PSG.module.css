@@ -1,0 +1,48 @@
+.psgContainer {
+  text-align: center;
+  padding: 40px;
+  background-color: #0a0f1f;
+  color: #ffffff;
+  border-radius: 12px;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #e6002e;
+}
+
+.description {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.image {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
