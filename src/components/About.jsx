@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import styles from './styles/About.module.css';
 
 export default function About() {
   const [isVisible, setIsVisible] = useState(false);
@@ -9,9 +10,12 @@ export default function About() {
   }, []);
 
   return (
-    <section id="about" className={`aboutContainer ${isVisible ? 'fadeIn' : ''}`}>
-      <h2 className="aboutTitle">À propos de moi</h2>
-      <p className="aboutDescription">
+    <section
+      id="about"
+      className={`${styles.aboutContainer} ${isVisible ? styles.fadeIn : ''}`}
+    >
+      <h2 className={styles.aboutTitle}>À propos de moi</h2>
+      <p className={styles.aboutDescription}>
         Étudiant en informatique à l’<strong>ETNA</strong>, je me forme au <strong>développement fullstack</strong>, au <strong>DevOps</strong> et aux <strong>systèmes d’information</strong>.  
         Je n’ai pas encore tout vu, mais j’apprends vite et je n’abandonne jamais. Pour moi, chaque bug est un défi, chaque projet un match à gagner.  
         <br /><br />
