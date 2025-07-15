@@ -1,44 +1,46 @@
 .psgContainer {
   text-align: center;
-  background: linear-gradient(145deg, #0a0f1f, #161b22);
   padding: 40px;
+  background: linear-gradient(145deg, #0a0f1f, #161b22);
+  border-radius: 16px;
+}
+
+.title {
+  font-size: 2rem;
+  color: var(--accent);
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: var(--text);
+  margin-bottom: 20px;
 }
 
 .carousel {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .mediaContainer {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-  border-radius: 16px;
-  overflow: hidden;
+  width: 500px;
+  max-width: 90%;
 }
 
 .video {
   width: 100%;
-  height: auto;
-  border-radius: 16px;
+  border-radius: 12px;
 }
 
 .navBtn {
-  font-size: 2rem;
+  border: 2px solid var(--primary);
+  color: var(--primary);
   background: transparent;
-  border: 2px solid var(--primary-color);
-  color: var(--primary-color);
   border-radius: 50%;
   width: 40px;
   height: 40px;
+  font-size: 1.5rem;
   cursor: pointer;
-  transition: var(--transition);
-}
-
-.navBtn:hover {
-  background: var(--primary-color);
-  color: #0a0f1f;
 }

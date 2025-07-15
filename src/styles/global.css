@@ -1,76 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap');
 
 :root {
-  --background-color: #0d1117;
-  --text-color: #c9d1d9;
-  --primary-color: #58a6ff;
-  --accent-color: #e6002e;
-  --font-family: 'Fira Code', monospace;
+  --background: #0d1117;
+  --text: #c9d1d9;
+  --primary: #58a6ff;
+  --accent: #e6002e;
+  --font: 'Fira Code', monospace;
   --transition: 0.3s ease-in-out;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: var(--font);
   background: linear-gradient(145deg, #0d1117, #161b22);
-  color: var(--text-color);
+  color: var(--text);
   line-height: 1.6;
   font-size: clamp(14px, 1.2vw, 18px);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   scroll-behavior: smooth;
 }
 
 section {
-  max-width: 1100px;
-  width: 100%;
+  max-width: 1200px;
   margin: 40px auto;
-  padding: 50px 20px;
-  background: rgba(15, 20, 25, 0.6);
+  padding: 60px 20px;
   border-radius: 16px;
+  background: rgba(15, 20, 25, 0.6);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   transition: box-shadow var(--transition);
 }
 
 section:hover {
-  box-shadow: 0 0 20px var(--primary-color);
+  box-shadow: 0 0 20px var(--primary);
 }
 
 h1, h2 {
   text-align: center;
-  margin-bottom: 20px;
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--primary);
   text-decoration: none;
-  transition: color var(--transition);
+  position: relative;
 }
 
-a:hover {
-  color: #79b8ff;
+a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: var(--primary);
+  left: 0;
+  bottom: -4px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform var(--transition);
 }
 
+a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
   section {
-    padding: 30px 15px;
+    padding: 40px 15px;
   }
 
-  .hero {
-    flex-direction: column;
-    text-align: center;
+  h1, h2 {
+    font-size: 1.8rem;
   }
 
-  .mediaContainer {
-    max-width: 90%;
+  p {
+    font-size: 1rem;
   }
 }
