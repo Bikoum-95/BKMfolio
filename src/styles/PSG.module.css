@@ -1,48 +1,96 @@
 .psgContainer {
   text-align: center;
   padding: 40px;
-  background-color: #0a0f1f;
+  background: linear-gradient(145deg, #0a0f1f, #161b22);
   color: #ffffff;
-  border-radius: 12px;
+  border-radius: 16px;
   margin: 40px auto;
-  max-width: 1000px;
+  max-width: 900px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
 }
 
 .title {
-  font-size: 2rem;
-  margin-bottom: 20px;
+  font-size: 2.2rem;
   color: #e6002e;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 
 .description {
-  font-size: 1.1rem;
-  margin-bottom: 20px;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
   line-height: 1.6;
+  color: #d0d0d0;
 }
 
-.gallery {
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.mediaContainer {
+  width: 500px;
+  height: 280px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.7);
+}
+
+.mediaWrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.navBtn {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #58a6ff;
+  color: #58a6ff;
+  font-size: 2.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  transition: 0.3s;
+}
+
+.navBtn:hover {
+  background: #58a6ff;
+  color: #0a0f1f;
+}
+
+.indicators {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+  margin-top: 10px;
+  gap: 8px;
 }
 
-.image {
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #888;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
-.fadeIn {
-  animation: fadeIn 1s ease-in-out;
+.activeDot {
+  background: #e6002e;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.quote {
+  margin-top: 25px;
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #58a6ff;
 }
