@@ -4,7 +4,8 @@ export default function About() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setIsVisible(true), 300);
+    const timer = setTimeout(() => setIsVisible(true), 300);
+    return () => clearTimeout(timer);
   }, []);
 
   return (
@@ -18,7 +19,6 @@ export default function About() {
         <br /><br />
         Aujourd’hui, je cherche une <strong>alternance</strong> pour passer du code à l’action, apprendre des meilleurs et contribuer à des projets qui comptent. Si vous aimez les profils ambitieux, curieux et prêts à jouer le jeu à fond… on est dans la même équipe.
       </p>
-
     </section>
   );
 }
