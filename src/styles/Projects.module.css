@@ -1,109 +1,16 @@
-.projectsContainer {
-  padding: 100px 20px;
-  max-width: 1400px;
-  margin: auto;
-}
-
-.title {
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 80px;
-  color: #58a6ff;
-  text-shadow: 0 0 10px rgba(88, 166, 255, 0.6);
-  letter-spacing: 1px;
-}
-
 .projectsWrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
 }
 
 .card {
   background: rgba(13, 17, 23, 0.95);
-  border: 1px solid #30363d;
-  border-radius: 16px;
-  padding: 30px;
-  box-shadow: 0 4px 30px rgba(88, 166, 255, 0.15);
-  transition: transform 0.4s, box-shadow 0.4s;
-  min-height: 600px;
+  border-radius: 14px;
+  padding: 20px;
+  transition: transform var(--transition);
 }
 
 .card:hover {
-  transform: translateY(-15px);
-  box-shadow: 0 0 40px rgba(88, 166, 255, 0.5);
-}
-
-.imageWrapper {
-  margin-bottom: 20px;
-}
-
-.image,
-.video {
-  border-radius: 12px;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.cardTitle {
-  font-size: 1.8rem;
-  color: #c9d1d9;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-.cardDescription {
-  font-size: 1.1rem;
-  color: #8b949e;
-  margin-bottom: 25px;
-  line-height: 1.5;
-}
-
-.techIcons {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
-}
-
-.techIcons img {
-  filter: invert(80%);
-  transition: transform 0.3s;
-}
-
-.techIcons img:hover {
-  transform: scale(1.15);
-}
-
-.button {
-  display: inline-block;
-  padding: 12px 25px;
-  background: #58a6ff;
-  color: #0d1117;
-  border-radius: 10px;
-  font-weight: bold;
-  text-decoration: none;
-  transition: background 0.3s, transform 0.3s;
-  margin: 5px; 
-  text-align: center;
-}
-
-.button:hover {
-  background: #79b8ff;
-  transform: scale(1.05);
-}
-
-.fadeIn {
-  opacity: 0;
-  transform: translateY(30px);
-  animation: fadeIn 1s forwards;
-}
-
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  transform: translateY(-10px);
 }
