@@ -22,6 +22,8 @@ export default function About() {
         Comme sur un terrain de foot, je crois au collectif, à la persévérance et à l’envie de se dépasser. Je veux être ce profil polyvalent, capable de coder, d’analyser et d’apporter des solutions, même dans les prolongations.  
         <br /><br />
         Aujourd’hui, je cherche une <strong>alternance</strong> pour passer du code à l’action, apprendre des meilleurs et contribuer à des projets qui comptent. Si vous aimez les profils ambitieux, curieux et prêts à jouer le jeu à fond… on est dans la même équipe.
+        <br /><br />
+        Et comme quand je porte un maillot, je donnerai tout pour défendre vos couleurs et atteindre nos objectifs.
       </p>
     </section>
   );

@@ -15,11 +15,11 @@ export default function PSG() {
 
   return (
     <section id="psg" className={styles.psgContainer}>
-      <h2 className={styles.title}>Ma Passion : Le PSG</h2>
+      <h2 className={styles.title}>Ma Passion : Foot & PSG</h2>
         <p className={styles.description}>
         Être fan du <strong>Paris Saint-Germain</strong>, ce n’est pas juste regarder un match.
         C’est vivre une passion qui m’accompagne depuis plus de 10 ans, une école de valeurs :
-        <strong>travail d’équipe, persévérance et ambition... Dans les hauts et les bas, le PSG m’a appris à ne jamais abandonner.</strong>
+        <strong>travail d’équipe, persévérance et ambition... Dans les hauts et les bas, le PSG m’a appris à ne jamais abandonner. </strong>
         Ces valeurs, je les applique chaque jour, dans ma façon d’apprendre et de travailler : viser plus haut, rester soudé et ne jamais baisser les bras, même quand le match semble perdu.
         </p>
       <div className={styles.carousel}>
