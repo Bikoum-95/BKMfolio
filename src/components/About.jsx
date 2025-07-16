@@ -16,7 +16,7 @@ export default function About() {
     >
       <h2 className={styles.aboutTitle}>À propos de moi</h2>
       <p className={styles.aboutDescription}>
-        Étudiant en informatique à l’<strong>ETNA</strong>, je me forme au <strong>développement fullstack</strong>, au <strong>DevOps</strong> et aux <strong>systèmes d’information</strong>.  
+        Étudiant en informatique à l’<strong>ETNA</strong>, je me forme au <strong>Développeur Back-End</strong>, et aux <strong>systèmes IT</strong>.  
         Je n’ai pas encore tout vu, mais j’apprends vite et je n’abandonne jamais. Pour moi, chaque bug est un défi, chaque projet un match à gagner.  
         <br /><br />
         Comme sur un terrain de foot, je crois au collectif, à la persévérance et à l’envie de se dépasser. Je veux être ce profil polyvalent, capable de coder, d’analyser et d’apporter des solutions, même dans les prolongations.  
