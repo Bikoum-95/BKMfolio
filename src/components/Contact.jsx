@@ -12,7 +12,7 @@ export default function Contact() {
         N’hésitez pas à m’écrire, je répondrai avec plaisir :
       </p>
       <div className={styles.contactEmail}>
-        <a href="mailto:sorenbikouta11@gmail.com">📩 Me contacter par email </a>
+        <a href="mailto:sorenbikouta11@gmail.com">Me contacter par email </a>
       </div>
     </section>
   );
